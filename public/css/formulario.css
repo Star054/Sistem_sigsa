@@ -1,0 +1,41 @@
+/*.vertical-text {*/
+/*    writing-mode: vertical-lr;*/
+/*    transform: rotate(180deg);*/
+/*    text-align: center;*/
+/*    vertical-align: middle;*/
+/*    width: 20px; !* Ajusta el ancho dependiendo del contenido *!*/
+/*    white-space: nowrap;*/
+/*    height: 200px; !* Ajusta la altura dependiendo del tamaño de la celda *!*/
+/*}*/
+
+/*.vertical-text {*/
+/*    writing-mode: vertical-rl; !* Escribe el texto de arriba hacia abajo *!*/
+/*    transform: rotate(180deg); !* Rota el texto para que sea legible *!*/
+/*    text-align: center;*/
+/*    vertical-align: middle;*/
+/*}*/
+
+
+/*!* Flex container para los componentes *!*/
+/*.component-container {*/
+/*    display: flex;*/
+/*    justify-content: space-between; !* Asegura que los componentes se distribuyan equitativamente *!*/
+/*    align-items: flex-start; !* Asegura que los componentes se alineen en la parte superior *!*/
+/*    gap: 0; !* Asegura que no haya espacio entre los componentes *!*/
+/*}*/
+
+/*!* Ajusta los márgenes y padding de los componentes para que no tengan espacios extra *!*/
+/*.component-container > * {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    flex: 1; !* Los componentes ocuparán el mismo ancho *!*/
+/*}*/
+
+/*!* Si deseas que algunos componentes tengan un tamaño más amplio o específico, puedes ajustar el valor de 'flex' *!*/
+/*.datos-paciente {*/
+/*    flex: 2; !* Ocupará el doble de espacio en comparación a los otros *!*/
+/*}*/
+
+
+
+
